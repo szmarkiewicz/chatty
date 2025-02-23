@@ -1,0 +1,17 @@
+.layout-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-text {
+  float: right;
+  margin: 20pt;
+  color: white;
+}
+
+.logo {
+  width: fit-content;
+  color: white;
+}

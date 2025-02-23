@@ -1,0 +1,37 @@
+.message-container {
+    display: flex;
+    align-self: start;
+    align-items: start;
+    flex-flow: column nowrap;
+    justify-content: center;
+    max-width: 400px;
+    margin: 12px;
+}
+
+.message-container.sentByUser {
+    align-self: end;
+    align-items: end;
+}
+
+.message-body {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+}
+
+.message-body.sentByUser {
+    background-color: cornflowerblue;
+}
+
+.message-text-content {
+    font-size: 12pt;
+    text-align: left;
+}
+
+.smaller-footnote-text {
+    font-size: 9pt;
+}
+

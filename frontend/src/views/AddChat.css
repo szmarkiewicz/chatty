@@ -1,0 +1,31 @@
+.add-chat-container {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.add-chat-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.label-text {
+    font-size: 14pt;
+    line-height: 2;
+}
+
+.add-chat-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px 0;
+    width: 80%;
+}

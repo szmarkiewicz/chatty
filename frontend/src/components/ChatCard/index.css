@@ -1,0 +1,44 @@
+.chat-card {
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px white;
+    display: flex;
+    background-color: white;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    width: fit-content;
+    min-width: 500px;
+}
+
+.chat-title {
+    font-weight: bold;
+    font-size: large;
+    margin: 10px 20px;
+}
+
+.chat-element {
+    margin: 5px;
+}
+
+.joined {
+    transition: all 0.4s ease-out;
+}
+
+.joined:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.chat-arrow {
+    margin-right: 20px;
+    transition: translate 0.4s ease-out;
+}
+
+.chat-button {
+    margin-right: 10px;
+}
+
+.joined:hover .chat-arrow {
+    translate: 15px;
+}

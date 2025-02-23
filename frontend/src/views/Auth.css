@@ -1,0 +1,19 @@
+.login-form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input {
+    margin: 5px;
+    width: 200px;
+}
+
+.auth-container {
+    border-radius: 12px;
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    margin: auto;
+}
